@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h4>REGISTRATION FORM</h4>
+        <br>
+        <p>name</p>
+        <input type="text" placeholder="enter the name">
+        <br>
+        <br>
+        <p>password</p>
+        <input type="password" placeholder="enter password"> 
+        <br>      
+    </form>
+    <form>
+        <p>select your class</p>
+        <label for="101">
+            <input type="radio" value="class X" name="class" id="101">class X
+            </label>
+            <br>
+            <label for="102">
+            <input type="radio" value="class IX" name="class" id="102">class IX
+        </label>
+        <br>
+        <p>select your sudjects</p>
+        <label>
+            <input type="checkbox" value="math" name="class">math
+            <br>
+
+            <input type="checkbox" value="physic" name="class">physics
+            <br>
+            <input type="checkbox" value="science" name="class">science
+            <br>
+            <input type="checkbox" value="english" name="class">english
+        </label>
+        <br>
+        <p>select your city</p>
+        <select name="city" id="101">
+            
+            <option
+            
+                value="Delhi">Delhi</option>
+           <option value="Mumbai" >Mumbai</option>
+        </select>
+        <br>
+        <textarea type="feedback" placeholder="feedback"></textarea> 
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
